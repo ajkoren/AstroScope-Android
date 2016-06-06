@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<TableLayout
+    android:orientation="vertical"
+    android:shrinkColumns="0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<TableRow>
+<TextView
+	android:id="@+id/geocodeInputTextView"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Search for Birthplace:"
+	/>
+</TableRow>
+
+<TableRow>
+<Button
+	android:id="@+id/findMyLocationButton"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:text="Find by Name"
+	android:layout_weight="0.5"
+    />
+<EditText
+    android:id="@+id/geocodeEditText"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:hint="Enter Name of Place"
+	android:layout_weight="0.5"
+    />
+</TableRow>
+
+<TableRow>
+<TextView
+	android:id="@+id/geocodeOutputTextView"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Birthplace not found"
+    android:layout_span="2"
+	/>
+</TableRow>
+
+<View
+	android:layout_height="2px"
+	android:background="#DDFFDD"
+	android:layout_marginTop="5dip"
+	android:layout_marginBottom="5dip"/>
+
+<TableRow>
+<TextView
+	android:id="@+id/locatorTextView"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Alternative Manual Entry:"
+	android:inputType="textMultiLine"
+    android:layout_span="2"
+	/>
+</TableRow>
+
+<TableRow>
+<Spinner
+	android:id="@+id/lngSignSpinner"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:entries="@array/lngSign"
+	android:layout_weight="0.5"
+	/>
+
+<EditText
+	android:id="@+id/lngEditText"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:inputType="numberDecimal"
+    android:hint="Enter Longitude" 
+	android:layout_weight="0.5"
+	/>
+</TableRow>
+
+<TableRow>
+ <Spinner
+	android:id="@+id/latSignSpinner"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:entries="@array/latSign"
+	android:layout_weight="0.5"
+	/>
+<EditText
+	android:id="@+id/latEditText"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal"
+    android:hint="Enter Latitude" 
+	android:layout_weight="1.0"
+	/>
+</TableRow>
+
+<TableRow
+	android:stretchColumns="0">
+	
+ <Spinner
+	android:id="@+id/timezoneSpinner"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="1.0"
+	android:entries="@array/timezone"
+	/>
+</TableRow>
+
+<TableRow
+	android:stretchColumns="0">
+<Button
+	android:id="@+id/okButton"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+	android:layout_weight="0.5"
+    android:text="OK"
+    />
+</TableRow>
+
+</TableLayout>
+</LinearLayout>
+</ScrollView>
+

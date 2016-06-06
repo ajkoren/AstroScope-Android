@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    >
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linlay" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="#000000"
+    >
+
+<EditText
+    android:id="@+id/nameEditText"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:textSize="24sp" 
+    android:hint="Enter Name"
+	android:layout_weight="1"
+    />
+ 
+<TableRow> 
+<View
+	android:layout_height="2px"
+	android:background="#DDFFDD"
+	android:layout_marginTop="5dip"
+	android:layout_marginBottom="5dip"
+    android:layout_weight="1"
+	/>
+</TableRow>
+
+<TableRow>
+<Button 
+    android:id="@+id/pickDateButton" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"
+    android:text="Select Birth Date"> 
+</Button>
+<TextView 
+    android:id="@+id/dateDisplayText" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"
+    android:text="Date">
+</TextView>
+</TableRow>
+ 
+<TableRow>    
+<Button
+	android:id="@+id/pickTimeButton"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Select Birth Time"
+    />
+<TextView  
+	android:id="@+id/timeTextView"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Time"
+    />
+</TableRow>
+    
+<TableRow> 
+<Button
+	android:id="@+id/pickLocationButton"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Select Birth Location"
+    />
+<TextView  
+	android:id="@+id/locationTextView"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Location"
+    />
+</TableRow>
+
+<TableRow> 
+<View
+	android:layout_height="2px"
+	android:background="#DDFFDD"
+	android:layout_marginTop="5dip"
+	android:layout_marginBottom="5dip"
+    android:layout_weight="1"
+	/>
+</TableRow>
+
+<TableRow> 
+<Button
+	android:id="@+id/natalButton"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Show Natal Grid"
+    android:layout_weight="1"
+    />
+</TableRow>
+
+<TableRow> 
+<Button
+	android:id="@+id/transTableButton"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Show Transits Table"
+    android:layout_weight="1"
+    />
+</TableRow>
+
+<TableRow> 
+<View
+	android:layout_height="2px"
+	android:background="#DDFFDD"
+	android:layout_marginTop="5dip"
+	android:layout_marginBottom="5dip"
+    android:layout_weight="1"
+	/>
+</TableRow>
+
+<TableRow> 
+<Button
+	android:id="@+id/openButton"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Open"
+    />
+<Button
+	android:id="@+id/saveButton"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Save"
+    android:layout_weight="1"
+    />
+</TableRow>
+
+</TableLayout>
+</ScrollView>
+
+
+

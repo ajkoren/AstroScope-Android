@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<TextView
+	android:id="@+id/aspectsTV"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="fill_horizontal"
+	android:textStyle="normal"
+	android:textSize="22px"
+	android:text="Celectial body parameters:\n
+Julian Day: The number of days since January 1, 4713 BC\n
+Right Ascen: The angle (degrees) from the first point of Aries\n
+House: The house number in which the celestial body is, and the house angle spread\n
+Zodiac: Element on the zodiac and the location of the celectial body in the element\n
+\n
+Aspects grid key:\n
+0 (conjunction): The celectial bodies are in the same direction\n
+* (sextile): There is an angle of 60° between the two celectial bodies\n
+□ (square): There is an angle of 90° between the two celectial bodies\n
+∆ (trine): There is an angle of 120° between the two celectial bodies\n
+/ (oposition): There is an angle of 180° between the two celectial bodies\n
+\n"
+	/>
+</LinearLayout>
+
+

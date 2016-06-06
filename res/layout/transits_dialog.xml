@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<ScrollView
+	android:id="@+id/logSV"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+	android:id="@+id/aspectsTV"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="fill_horizontal"
+	android:textStyle="normal"
+	android:textSize="22px"
+	android:text="\n
+Interpretation (planets):\n
+Jupiter: Any aspect with this planet is good / benefitial.\n 
+Saturn: 90° and 180° aspects of this planet are bad/destructive. 
+Other aspects are mixed, but mostly good / benficial.\n
+Uranus: The planet of surprise. Any aspect might be good or bad.\n
+Neptune: An aspect could have positive and/or negative elements.\n
+Pluto: 90° and 180° aspects of this planet are bad/destructive.
+Other aspects are mixed, but mostly good / benficial.\n\n
+\n
+Interpretation (aspects):\n
+  * marks major aspects, where either:\n
+    1) Both plants are in the same house, or\n
+    2) One of the planets is in a house which is ruled by the other planet, or\n
+    3) The natal and transiting planet is the same one, so both rule the same house\n
+\n
+  0° (conjunction): This aspect might be hard or soft, depending on the planet\n
+ 30°, 330° (Semi-sextile): A soft/harmonious angle. No change required\n
+ 60°, 300° (*, sextile): A soft/harmonious angle. No change required\n
+ 90°, 270° (□, square): A hard angle. Change is required\n
+120°, 240° (∆, trine): A soft/harmonious angle. No change required\n
+150°, 210° (Quincunx): A soft but somewhat unpredictable angle. No change required.\n
+180° (/, oposition): A hard angle. Expect change\n
+\n\n
+Interpretation (houses):
+Below are the main controlling areas of each house. 
+These are the areas of life which are affected by a transiting aspect\n
+1: Self / Ego\n
+2: Property / Money\n
+3: Intelligence / Communications\n
+4. Home / Family\n
+5. Pleasure / Love / Creativity\n
+6. Health / Work\n
+7. Marriage / Partnerships\n
+8. Deaths And Rebirth / Joint Property\n
+9. Long Distance Travels / Knowledge / Experience\n
+10. Social Status / Career\n
+11. Friendship\n
+12. Seclusion\n
+\n"
+	/>
+</ScrollView>
+</LinearLayout>
+
+

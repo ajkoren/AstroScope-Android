@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello AstroScope!</string>
+    <string name="app_name">AstroScope</string>
+    <string-array name="latSign">
+    	<item>North</item>
+    	<item>South</item>
+    </string-array>
+    <string-array name="lngSign">
+    	<item>East</item>
+    	<item>West</item>
+    </string-array>
+    
+    <string name="planet_prompt">Choose an Object</string>
+    <string-array name="planets_array">
+        <item>Sun</item>
+        <item>Moon</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Pluto</item>
+    </string-array>
+
+    <string-array name="inner_planets_array">
+        <item>Sun</item>
+        <item>Moon</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Mars</item>
+    </string-array>
+
+    <string name="trad_shifted_prompt">Choose an Astrology System</string>
+    <string-array name="trad_shifted_array">
+        <item>Use Wobble Corrected Western Astrology</item>
+        <item>Use Traditional Western Astrology</item>
+    </string-array>
+    
+    <string-array name="timezone">
+    	<item>UTC GMT Greenwich Mean Time</item>
+    	<item>UTC+1:00 Central Europe Time</item>
+    	<item>UTC+2:00 Eastern Europe Time</item>
+    	<item>UTC+3:00 Moscow Time</item>
+    	<item>UTC+3:30 Iran Time</item>
+    	<item>UTC+4:00 Samara Time</item>
+    	<item>UTC+5:00 Tadjikistan/Pakistan Time</item>
+    	<item>UTC+5:30 India Time</item>
+    	<item>UTC+6:00 Novosibirsk Time</item>
+    	<item>UTC+6:30 Myanmar Time</item>
+    	<item>UTC+7:00 Indochina Time</item>
+    	<item>UTC+7:30 Java Time</item>
+    	<item>UTC+8:00 China Time</item>
+    	<item>UTC+9:00 Japan/Korea Time</item>
+    	<item>UTC+9:30 Australia Central Time</item>
+    	<item>UTC+10:00 Vladivostok/Guam Time</item>
+    	<item>UTC+11:00 Magadan Time</item>
+    	<item>UTC+12:00 New Zealand Time</item>
+    	<item>UTC-1:00 West African Time</item>
+    	<item>UTC-2:00 Azores Time</item>
+    	<item>UTC-3:00 Eastern Brazilian Time</item>
+    	<item>UTC-3:00 Newfoundland Time</item>
+    	<item>UTC-4:00 Atlantic Time</item>
+    	<item>UTC-5:00 Eastern Time</item>
+    	<item>UTC-6:00 Central Time</item>
+    	<item>UTC-7:00 Mountain Time</item>
+    	<item>UTC-8:00 Pacific Time</item>
+    	<item>UTC-9:00 Yukon Time</item>
+    	<item>UTC-10:00 Alaska-Hawaii Time</item>
+    	<item>UTC-11:00 Nome Time</item>
+    	<item>UTC-12:00 Int\'l Date Line West</item>
+    </string-array>
+</resources>

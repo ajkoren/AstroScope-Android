@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<!-- 
+<Spinner 
+	android:id="@+id/tradShiftedSp" 
+	android:prompt="@string/trad_shifted_prompt" 
+	android:entries="@array/trad_shifted_array"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+ -->
+<Spinner 
+	android:id="@+id/planetSp" 
+	android:prompt="@string/planet_prompt" 
+	android:entries="@array/planets_array"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+
+<Button 
+	android:id="@+id/explanationBtn"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:text="Key to Results"
+	/>
+
+<View
+	android:layout_width="fill_parent"
+	android:layout_height="2px"
+	android:background="#DDFFDD"
+	android:layout_marginTop="5dip"
+	android:layout_marginBottom="5dip"
+	/>
+	
+<TextView
+	android:id="@+id/coordTV"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:text=""
+	android:textSize="21sp"
+	/>
+
+<View
+	android:layout_width="fill_parent"
+	android:layout_height="2px"
+	android:background="#DDFFDD"
+	android:layout_marginTop="5dip"
+	android:layout_marginBottom="5dip"/>
+
+<HorizontalScrollView 
+	android:id="@+id/HorizontalScrollView01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+
+<ScrollView
+	android:id="@+id/logSV"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+	android:id="@+id/aspectsTV"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:typeface="monospace"
+    android:gravity="fill_horizontal"
+	android:textStyle="normal"
+	android:textSize="21sp"
+	/>
+</ScrollView>
+</HorizontalScrollView> 
+
+</LinearLayout>
+</ScrollView>
+
